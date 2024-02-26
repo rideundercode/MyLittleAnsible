@@ -1,0 +1,14 @@
+- module: service
+  params:
+    name: docker
+    state: stopped
+
+- module: serovice
+  params:
+    name: docker
+    state: started
+
+- module: service
+  params:
+    name: docker
+    state: enabled

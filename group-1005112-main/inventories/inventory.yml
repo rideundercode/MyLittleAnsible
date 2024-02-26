@@ -1,0 +1,32 @@
+hosts:
+    webserver:
+        ssh_address: 172.16.228.59
+        ssh_user: "serbou_d"
+        ssh_password: "SSH_PASSWORD"
+        ssh_port: 22
+    bastion:
+        ssh_address: 172.16.228.88
+        ssh_user: "serbou_d"
+        ssh_password: "SSH_PASSWORD"
+        ssh_port: 22
+    vm3:
+        ssh_address: 172.16.228.21
+        ssh_user: "serbou_d"
+        ssh_password: "SSH_PASSWORD"
+        ssh_port: 22
+    mla1:
+        ssh_address: 192.168.233.128
+        ssh_user: "mla1"
+        ssh_password: "SSH_PASSWORD"
+        ssh_port: 22
+    mla2:
+        ssh_address: 192.168.233.129
+        ssh_user: "mla2"
+        ssh_password: "SSH_PASSWORD"
+        ssh_port: 22
+    mla3:
+        ssh_address: 192.168.233.130
+        ssh_user: "mla3"
+        ssh_password: "SSH_PASSWORD"
+        ssh_port: 22
+    

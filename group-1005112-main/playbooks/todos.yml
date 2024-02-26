@@ -1,0 +1,5 @@
+- module: apt
+  params:
+    name: vim
+    state: absent
+

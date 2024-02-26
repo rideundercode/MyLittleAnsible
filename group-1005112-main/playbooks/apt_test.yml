@@ -1,0 +1,4 @@
+- module: apt
+  params:
+    name: docker.io
+    state: present

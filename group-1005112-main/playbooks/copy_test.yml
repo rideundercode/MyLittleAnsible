@@ -1,0 +1,5 @@
+- module: copy
+  params:
+    src: "./files/copy.txt"
+    dest: "text"
+    backup: true

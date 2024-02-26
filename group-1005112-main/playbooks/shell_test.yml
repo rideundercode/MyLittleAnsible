@@ -1,0 +1,17 @@
+- module: command
+  params:
+    command: echo $0
+
+- module: command
+  params:
+    command: echo "ouuuuui"
+      
+- module: command
+  params:
+    command: ls
+    shell: "/bin/sh"
+
+- module: command
+  params:
+    command: echo $0
+    shell: "/bin/sh"

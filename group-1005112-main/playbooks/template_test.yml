@@ -1,0 +1,7 @@
+- module: template
+  params:
+    src: "./files/template1.j2"
+    dest: "template_done"
+    vars: 
+      listen_port: 8016
+      server_name: "SERVEUR SANSU"
